@@ -1,4 +1,4 @@
-package n1018;
+package n1024;
 
 import java.util.Scanner;
 
@@ -8,9 +8,11 @@ public class Main {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		String str=sc.next();
-		String[] date=str.split(":");
-	
-		System.out.print(date[0]+":"+date[1]);		
+		char[] chs=str.toCharArray();
+		for(int i=0; i<chs.length; i++) {
+			System.out.printf("'%c'", chs[i]);
+			System.out.println();
+		}
 	}
 
 }
