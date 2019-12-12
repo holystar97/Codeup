@@ -15,9 +15,12 @@ public class Main {
 		int res=Integer.parseInt(code);
 		System.out.print(res);
 		
+<<<<<<< HEAD
+=======
 		
 		
 >>>>>>> c62deaada0fc12e0b8636dce62efd147360bdc93
+>>>>>>> 7ba686ae538aac0740139acabbf5e4362fb1f546
 	}
 
 }
